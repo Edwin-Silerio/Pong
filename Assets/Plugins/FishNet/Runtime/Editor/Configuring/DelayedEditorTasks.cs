@@ -11,7 +11,11 @@ namespace FishNet.Editing
     /// <summary>
     /// Contributed by YarnCat! Thank you!
     /// </summary>
+
+    // Edwin - Disable startup message
+/*
     [InitializeOnLoad]
+*/
     public class DelayedEditorTasks : EditorWindow
     {
         private static double _startTime = double.MinValue;
